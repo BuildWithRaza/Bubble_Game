@@ -57,11 +57,13 @@ main{
 
 .game h1{
     color: red;
+    font: bold;
 }
 
 .game h4{
     font-size: 20px;
-    color: blue;
+    color: rgb(5, 118, 22);
+    font: bold;
 }
 
 .game button{
