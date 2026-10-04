@@ -75,3 +75,21 @@ main{
     font-size: 18px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 500px) {
+    .timer,.target,.score{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .numbers{
+        gap:10px;
+        width: 90dvw;
+        padding: 10;
+    }
+    .numbers p{
+        width: 30px;
+        height: 30px;
+    }
+}
